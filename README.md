@@ -71,3 +71,7 @@ I was able to submit two entries for evaluation due to time constraints and issu
 I attempted to use [Monai](https://monai.io), [fastMonai](https://fastmonai.no/), [PathML](http://pathml.org), and [cuCIM](https://github.com/rapidsai/cucim), but I encountered problems properly loading the WSI (memory constraints or unknown error) or slow processing. However, these libraries appear promising, and I would like to experiment with them again in the future.
 
 Additionally, this challenge introduced me to the concept of MIL (multiple instance learning) and how it can be used to train WSIs by reducing memory constraints and training on unmodified tiles. Finally, I plan on going through the winning solutions and attempting to understand other approaches to tackling this challenge.
+
+## Preliminary Results
+
+There was a total of 896 teams competiting, 1,033 competitors, and 7,010 entries. Based on the preliminary results, my model ranked within the top 28% of submissions and placed 242/896. 
