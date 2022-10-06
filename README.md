@@ -31,3 +31,35 @@ An example can be seen:
 | 026c97_0     | 4             | 026c97         | 0             | CE        |
 | 049194_0     | 5             | 49194          | 0             | CE        |
 | 049194_1     | 5             | 49194          | 1             | CE        |
+
+## Preprocessing
+
+The training WSI (Whole Slide Images) are massive in filesize due to their high resolutions. I was able to shrink the dataset down from ~241 gigabytes down to a few gigabytes. The preprocessing can be generalized: 
+
+1. Load large .tif WSI
+2. Crop WSI using [PyVips](https://libvips.github.io/pyvips/vimage.html#pyvips.Image.smartcrop) smart crop with attention features
+3. Resize image to specified width x height
+4. Delete parts of image that contain low signal
+5. Export as JPEG with quality set to 100%
+
+<!--
+TODO:  Add preview images. 
+<table>
+<thead>
+  <tr>
+    <th>Before</th>
+    <th>After</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td><img src="image1.tif" width="400" height="300"></td>
+    <td><img src="image1.jpg" width="400" height="300"></td>
+  </tr>
+  <tr>
+    <td><img src="image2.tif" width="400" height="300"></td>
+    <td><img src="image2.jpg" width="400" height="300"></td>
+  </tr>
+</tbody>
+</table>
+--> 
