@@ -63,3 +63,9 @@ TODO:  Add preview images.
 </tbody>
 </table>
 --> 
+
+## Training
+
+I was able to submit two models for evaluation due to time constraints and issues with loading images without running out of memory. First, I tried [AutoGluon](https://github.com/awslabs/autogluon) with [swin_large_patch4_window7_224](https://github.com/microsoft/Swin-Transformer). Second, I used Keras with Tensorflow to apply transfer learning & fine-tuning techniques by using the latest [EfficientNet B4 with NoisyStudent + RandAugment](https://github.com/tensorflow/tpu/tree/master/models/official/efficientnet) pre-trained weights.
+
+I attempted to use [Monai](https://monai.io), [fastMonai](https://fastmonai.no/), [PathML](http://pathml.org), and [cuCIM](https://github.com/rapidsai/cucim), but I encountered problems properly loading the WSI (memory constraints or unknown error) or slow processing. However, these libraries appear promising, and I would like to experiment with them again in the future.
