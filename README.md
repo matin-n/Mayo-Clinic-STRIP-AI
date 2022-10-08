@@ -1,6 +1,6 @@
 # Mayo-Clinic-STRIP-AI
 
-![images/header.png](images/header.png)
+[![mayo clinic header](images/header.png)](https://www.kaggle.com/competitions/mayo-clinic-strip-ai/)
 
 
 ## Goal
