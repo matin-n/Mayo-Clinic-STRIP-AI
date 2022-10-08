@@ -72,6 +72,6 @@ I attempted to use [Monai](https://monai.io), [fastMonai](https://fastmonai.no/)
 
 Additionally, this challenge introduced me to the concept of MIL (multiple instance learning) and how it can be used to train WSIs by reducing memory constraints and training on unmodified tiles. Finally, I plan on going through the winning solutions and attempting to understand other approaches to tackling this challenge.
 
-## Preliminary Results
+## Final Results
 
-There was a total of 896 teams competiting, 1,033 competitors, and 7,010 entries. Based on the preliminary results, my model ranked within the top 28% of submissions and placed 242/896. 
+There was a total of 896 teams competiting, 1,025 competitors, and 6,980 entries. Based on the final results, my model ranked within the top 28% of submissions and placed 240/888. 
